@@ -1,11 +1,11 @@
-kind: ReplicaSet
 apiVersion: apps/v1
+kind: ReplicaSet
 metadata:
   name: nginx
   # these labels are replica set labels
   labels:
-    app:frontend
-    tier:web
+    app: frontend
+    tier: web
 spec:
   replicas: 3
   selector:
