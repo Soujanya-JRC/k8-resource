@@ -20,7 +20,7 @@ spec:
         app: frontend
         tier: web
     spec:
-      conatiners:
+      containers:
       - name: nginx
         image: nginx:stable-perl
 
