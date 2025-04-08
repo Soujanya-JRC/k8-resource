@@ -19,10 +19,10 @@ spec:
       labels:
         app: frontend
         tier: web
-      spec:
-        conatiners:
-        - name: nginx
-          image: nginx
+    spec:
+      conatiners:
+      - name: nginx
+        image: nginx
 
 
 
