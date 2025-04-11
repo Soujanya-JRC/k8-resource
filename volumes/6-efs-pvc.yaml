@@ -6,7 +6,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   storageClassName: ""
-  voulmeName: "efs-static"
+  volumeName: "efs-static"
   resources:
     requests:
       storage: 5Gi
